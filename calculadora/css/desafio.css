@@ -22,8 +22,24 @@ p {
   margin: 0;
 }
 
-button {
-  background-color:#fff;;
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #7f479b;
+  cursor: pointer;
+}
+
+.swal-overlay {
+  background-color: rgba(218, 180, 230, 0.45);
+}
+
+.swal-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button1 {
+  background-color: #fff;
   border: none;
   color: #000;
   text-align: center;
@@ -36,28 +52,28 @@ button {
   margin: 1.5rem 0 0 0;
 }
 
-button:hover{
+.button1:hover {
   color: #7C4597;
   font-weight: bold;
 }
 
-a {
-  background-color:#7C4597;;
+.button2 {
+  background-color: #7C4597;
+  ;
   border: none;
   color: #fff;
   text-align: center;
-  text-decoration: none;
   font-size: 16px;
   cursor: pointer;
-  width: 20%;
+  width: 200%;
   height: 40px;
   border-radius: 5px;
-  padding:10px;
+  padding: 10px;
   margin: 1.5rem 0 1.5rem 0;
 }
 
-a:hover{
-  background-color:#462755;
+.button2:hover {
+  background-color: #462755;
 }
 
 /*****BARRA NAVEGAÇÃO*****/
@@ -85,16 +101,19 @@ a:hover{
     margin: 0 0 0 0;
   }
 }
+
 @media (min-width: 768px) {
   .conteudo-principal {
     margin: 3rem auto 3rem auto;
   }
 }
+
 @media (min-width: 992px) {
   .conteudo-principal {
     max-width: 80%;
   }
 }
+
 @media (min-width: 1200px) {
   .conteudo-principal {
     max-width: 60%;
@@ -125,6 +144,7 @@ a:hover{
   .cabecalho {
     margin-top: 7rem;
   }
+
   .cabecalho_titulo {
     margin: 0 10rem 0 0;
     font-size: 25px;
@@ -138,6 +158,7 @@ a:hover{
     justify-content: center;
     height: 250px;
   }
+
   .cabecalho_titulo {
     margin: 0 20rem 0 0;
     font-size: 40px;
@@ -162,6 +183,7 @@ a:hover{
 .secao_formulario fieldset:not(:first-child) {
   margin: 1.5rem 0 0 0;
 }
+
 .secao_formulario legend {
   color: #fff;
   padding: 0;
@@ -226,30 +248,36 @@ a:hover{
   .secao {
     display: flex;
   }
+
   .secao_cabecalho {
     width: 100%;
   }
+
   .secao_rodape {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+
   .secao_conteudo,
   .secao_rodape {
     width: 400px;
     border-radius: 5px;
   }
 }
+
 @media (min-width: 992px) {
   .secao_conteudo {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
+
   .secao_rodape {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
 }
+
 /*****RODAPE*****/
 .rodape {
   font-size: 18px;

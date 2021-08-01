@@ -8,7 +8,13 @@ function calcularValorProjeto() {
     var horasProjeto = inputHoras.valueAsNumber 
 
     if (inputValor.value <= 0 || inputHoras.value <= 0) {
-        alert("Favor, informar os dados para o cálculo!");
+        swal({
+            title:"Campo vazio",
+            text: "Favor, informar os dados para o cálculo!",
+            icon:"error",
+            button: false,
+            timer: 3000,
+          });
    }     
     else {
         var valorProjeto = (valorHora * horasProjeto).toFixed(2) 
