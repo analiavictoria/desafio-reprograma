@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop - Desafio by Analia</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+  </head>
+  <body>
+    <nav class="barra-navegacao">
+      <img class="barra-navegacao_logotipo" src="img/logotipo-reprograma.png" />
+    </nav>
+    <header class="cabecalho">
+      <h1 class="cabecalho_titulo">Calculadora: O Projeto</h1>
+    </header>
+    <!---------FORMULÁRIO------------>
+    <main class="conteudo-principal">
+      <section class="secao">
+        <article class="secao_conteudo">
+          <div class="secao_formulario">
+            <!---VALOR HORAS--->
+            <fieldset>
+              <legend>
+                Agora que você já sabe o seu valor por hora, informe-o abaixo:
+              </legend>
+              <div class="secao_formulario_grupo">
+                <label for="valor-hora">Remuneração por Hora</label>
+                <input type="number" id="valor-hora" placeholder="0" />
+              </div>
+            </fieldset>
+            <!---HORAS PROJETO--->
+            <fieldset>
+              <legend>
+                Quantas horas você pretende dedicar ao projeto?
+              </legend>
+              <div class="secao_formulario_grupo">
+                <label for="horas-projeto">Horas do Projeto</label>
+                <input type="number" id="horas-projeto" placeholder="0" />
+              </div>
+            </fieldset>
+            <button onclick="calcularValorProjeto()">Calcular Projeto</button>
+          </div>
+        </article>
+        <!---------RESULTADO--------->
+        <footer class="secao_rodape">
+          <h3 class="secao_rodape_valor">
+            <span id="resposta">R$ 0,00</span><small>/projeto</small>
+          </h3>
+          <p class="secao_rodape_legenda">É o custo total do projeto ;D</p>
+        </footer>
+      </section>
+    </main>
+    <a href="index.html">Voltar</a>
+    <footer class="rodape">
+      Feito com alguns neurônios ♥, por Analia Victoria
+    </footer>
+    <script type="text/javascript" src="js/desafio.js"></script>
+  </body>
+</html>
