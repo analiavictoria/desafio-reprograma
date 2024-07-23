@@ -121,8 +121,8 @@ button:hover{
   color: #3f3d56;
   height: auto;
   padding: 2rem 1rem;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background: url("../img/code.png") no-repeat center right;
   background-attachment: scroll;
   background-size: auto;
